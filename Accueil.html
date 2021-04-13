@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ange Accueil</title>
+    <link rel="stylesheet" href="Accueil.css">
+</head>
+<body onload="Textes()">
+    <div class="conteneur">
+        <nav>
+            <h2><span class="lettre1">A</span>nge-<span class="lettre2">C</span>ode</h2>
+            <ul>
+                <li><a href="Cours.html" id="liens">Accueil</a></li>
+                <li><a href="" id="liens">Cours</a></li>
+                <li><a href="" id="liens">Compte</a></li>
+            </ul>
+        </nav>
+        <section>
+            <div class="Textes" id="Textes">
+                <h3><span class="Lettre1">A</span>NGE- <span class="Lettre2">C</span>ODE</h3>
+                <p>
+                  Ange code est un petit aidant tous developpeurs débutants d'apprendre et s'appréhender<br/> certaines notions
+                </p>
+               <a href=""><input type="button" value="Voir plus"></a> 
+            </div>
+        </section>
+    </div>
+
+    <script>
+        function Textes(){
+            setTimeout(() => {
+                produits()
+            }, 3000);
+        
+            document.getElementById("Textes").style.left ="700px";
+        }
+    </script>
+</body>
+</html>
